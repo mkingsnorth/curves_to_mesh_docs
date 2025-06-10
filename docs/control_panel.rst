@@ -6,7 +6,7 @@ Using the Control Panel
    :alt: Control Panel
    :width: 600px
 
-The add-on has a set of parameters in Blender's parameter toolbar on the left hand side.  If you do not see the toolbar, try pressing 'N'.  Select the "Curves To Mesh" tab.
+The add-on has a set of parameters in Blender's parameter toolbar on the right hand side.  If you do not see the toolbar, try pressing 'N'.  Select the "Curves To Mesh" tab.
 
 .. _preview_mode:
 
