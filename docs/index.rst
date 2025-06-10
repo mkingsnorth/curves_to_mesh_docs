@@ -24,7 +24,7 @@ Workflow
 
 #. Create a set of bezier curves in Blender.  The add-on offers three modes for converting curves into mesh geometry:
 
-    * **Surface to Mesh**: Connect networks of 4 curves to generate quad-based 3D surfaces.
+    * **Surface to Mesh**: :ref:`Connect networks of 4 curves<create_patches>` to generate quad-based 3D surfaces.
 
         .. image:: ./_static/images/patches.gif
            :align: center
