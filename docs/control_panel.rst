@@ -64,13 +64,16 @@ Options
 .. image:: _static/images/surface_options.png
    :alt: Surface to Mesh Options
 
+
 * **Across**: The number of cuts across a mesh surface.
 * **Down**: The number of cuts down a mesh surface (only available when 2 or 4 curves are selected)
 * **Use Curve Resolution**: If checked, Instead of using the subdivision options, use the curve's resolution_u setting found under the standard curve options panel.  This is useful for controlling the individual subdivisions on a more complex surface.
-* **Surface Creation**: If selected, Check direction of curve will only create surfaces based on the direction of a curve.  Only cyclic 2x2 curves will have surfaces created.  Useful for enforcing a particular way of creating curves, such as when a cylinder has ambiguous 2x2 curves:
-    .. image:: _static/images/c2m_4.gif
-       :alt: Surface Creation
-       :width: 600px
+* **Surface Creation**: 
+    * **Check Direction of Curve**: If selected, Check direction of curve will only create surfaces based on the direction of a curve.  Only cyclic 2x2 curves will have surfaces created.  Useful for enforcing a particular way of creating curves, such as when a cylinder has ambiguous 2x2 curves:
+
+        .. image:: _static/images/c2m_4.gif
+            :alt: Surface Creation
+            :width: 600px
 
 
 Profiles to Mesh
@@ -172,6 +175,7 @@ Options
 * **Cross Sections**: The cross sections are taken from Collection to operate on. The subdivisions setting controls the number of subdivisions on each curve cross section.
 * **Use Curve Resolution**: If checked, Instead of using the subdivision options, use the curve's resolution_u setting found under the standard curve options panel.
 * **Twist**: This will twist the profile curve by a number of degress.  Different to the "Profiles to Mesh" setting, this can twist in multiples of 360 degress to produce extreme amounts of twist, allowing you to fashion twisted cables and rings.
+
     .. image:: _static/images/sweep_twist.png
        :alt: Sweep Twist
        :width: 600px
@@ -218,7 +222,7 @@ When you are happy you can create the mesh by pressing the 'Create Mesh' button,
     
 
 
-Other Options
+Other Panels
 ========================
 
 
@@ -232,8 +236,19 @@ Curve Editing
 .. image:: _static/images/curve_editing.png
    :alt: Curve Editing
 
-When in Blender's *Curve Edit Mode*, The add-on provides a set of tools for quickly editing curves directly within the control panel.  These tools allow you to quickly modify the curves without needing to switch to the standard curve editing mode.
+When in Blender's *Curve Edit Mode*, The add-on provides a set of tools for quickly displaying and editing curves directly within the control panel.  These tools allow you to quickly modify the curves without needing to switch to the standard curve editing mode.
 
+Display handles
+^^^^^^^^^^^^^^^^^^^^
+This will control display the handles of the curves in the viewport:
+
+* **None/Selected/All**: This will control whether the handles are displayed for selected points, all points or not at all.
+* **Show Curve Direction**: This will display the direction of the curve in the viewport, which can be useful when creating surface patches according to curve direction (see "Check Direction of Curve").
+
+Curve Editing Tools
+^^^^^^^^^^^^^^^^^^^^
+
+These built in Blender tools are here for convenience allow you to quickly edit the curves.
 
 Preferences
 -------------------------
