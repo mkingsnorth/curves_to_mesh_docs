@@ -17,7 +17,7 @@ What is Curves to Mesh?
    :alt: Curves to Mesh
 
 
-`Curves to Mesh <https://blendermarket.com/products/curves-to-mesh/?ref-361>`_ is an add-on for 3D modellers who want to create mesh surfaces from a network of bezier curves.  Once created, these can then be used alongside Blender's core modelling tools to create more complex shapes..
+`Curves to Mesh <https://blendermarket.com/products/curves-to-mesh/?ref=361>`_ is an add-on for 3D modellers who want to create mesh surfaces from a network of bezier curves.  Once created, these can then be used alongside Blender's core modelling tools to create more complex shapes..
 
 Workflow
 ==================
@@ -49,7 +49,7 @@ Workflow
 #. Convert the curves into a normal Blender mesh surface.
 #. Use this regular mesh surface like any other alongside Blender's traditional mesh modelling techniques to create more complex objects for export or rendering.
 
-Compatible with my other popular add-ons such as `Flowify <https://blendermarket.com/products/flowify/?ref-361>`_, `Quad Maker <https://blendermarket.com/products/quad-maker/?ref-361>`_ and `Conform Object <https://blendermarket.com/products/conform-object/?ref-361>`_.
+Compatible with my other popular add-ons such as `Flowify <https://blendermarket.com/products/flowify/?ref=361>`_, `Quad Maker <https://blendermarket.com/products/quad-maker/?ref=361>`_ and `Conform Object <https://blendermarket.com/products/conform-object/?ref=361>`_.
 
 .. toctree::
    :maxdepth: 2

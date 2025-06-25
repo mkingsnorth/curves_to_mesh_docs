@@ -238,11 +238,12 @@ Curve Editing
 
 When in Blender's *Curve Edit Mode*, The add-on provides a set of tools for quickly displaying and editing curves directly within the control panel.  These tools allow you to quickly modify the curves without needing to switch to the standard curve editing mode.
 
-Display handles
+Display
 ^^^^^^^^^^^^^^^^^^^^
 This will control display the handles of the curves in the viewport:
 
-* **None/Selected/All**: This will control whether the handles are displayed for selected points, all points or not at all.
+* **View Line Width**: This controls the width of the lines in the viewport.
+* **Display Handles**: This will control whether the handles are displayed for selected points, all points or not at all.
 * **Show Curve Direction**: This will display the direction of the curve in the viewport, which can be useful when creating surface patches according to curve direction (see "Check Direction of Curve").
 
 Curve Editing Tools
@@ -253,14 +254,10 @@ These built in Blender tools are here for convenience allow you to quickly edit 
 Preferences
 -------------------------
 
+You can alter the colours and transparency of the preview mesh and Blender's global edit mode colours in the preferences panel.
+
 .. image:: _static/images/prefs.png
    :alt: Preferences
-
-You can alter the colours of the preview mesh in the preferences panel.
-
-
-
-
 
 Advanced Parameters
 ----------------------
